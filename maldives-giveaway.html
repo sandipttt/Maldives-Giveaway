@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Win a Free Trip to the Maldives</title>
+<style>
+  :root {
+    --ocean-deep: #023047;
+    --ocean-mid: #219ebc;
+    --sand: #fefae0;
+    --coral: #ff6b6b;
+    --coral-glow: rgba(255, 107, 107, 0.6);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(160deg, var(--ocean-deep), var(--ocean-mid));
+    color: var(--sand);
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card {
+    max-width: 480px;
+    padding: 50px 35px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.05rem;
+    opacity: 0.9;
+    margin-bottom: 30px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background: var(--coral);
+    padding: 20px 45px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    animation: blink-grow 1.4s ease-in-out infinite;
+  }
+
+  .cta-button:hover {
+    background: #ff4757;
+  }
+
+  @keyframes blink-grow {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 15px var(--coral-glow);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.08);
+      box-shadow: 0 0 30px var(--coral-glow);
+      opacity: 0.85;
+    }
+  }
+
+  .fine-print {
+    margin-top: 25px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>🏝️ Win a Free Trip to the Maldives!</h1>
+    <p>Simply click below and try your luck — you could be relaxing on white sand beaches sooner than you think.</p>
+
+    <a href="https://worldlywoodentertainment.blogspot.com/2026/07/himalayan-ritual-dead-body-becomes-food.html" class="cta-button" target="_blank" rel="noopener noreferrer">
+      Click & Try Your Luck 🎉
+    </a>
+
+    <p class="fine-print">No purchase necessary. Terms & conditions apply.</p>
+  </div>
+
+</body>
+</html>
